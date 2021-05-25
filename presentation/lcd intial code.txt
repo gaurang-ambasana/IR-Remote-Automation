@@ -1,0 +1,12 @@
+  lcd.setCursor(1, 0);
+  lcd.print("IR Controlled");
+  lcd.setCursor(5, 1);
+  lcd.print("Automation");
+  delay(3000);
+  lcd.clear();
+  lcd.setCursor(0,0);
+  lcd.print("System Ready :)");
+  lcd.setCursor(0,1);
+  lcd.print("Go on...");
+  delay(5000);
+  lcd.clear();
